@@ -108,10 +108,10 @@ static NSString *const iVersionMacAppStoreURLFormat = @"macappstore://itunes.app
 
 @implementation iVersion
 
-+ (void)load
-{
-    [self performSelectorOnMainThread:@selector(sharedInstance) withObject:nil waitUntilDone:NO];
-}
+//+ (void)load
+///{
+ //   [self performSelectorOnMainThread:@selector(sharedInstance) withObject:nil waitUntilDone:NO];
+//}
 
 + (iVersion *)sharedInstance
 {
